@@ -1,13 +1,6 @@
 # CodiceFiscaleRazorApp
 
-Form di inserimento dati anagrafici per la generazione del codice fiscale
-
-## Funzionalità
-
-L'applicazione permette di eseguire il calcolo del codice fiscale italiano in due modalità:
-
-- SSR(Server Side Rendering): Viene utilizzato un normale ciclo di richiesta/risposta HTTP
-- SPA(Single Page Application): Viene utilizzato javascript per inviare una richiesta fetch ad un endpoint minimal api e aggiornare dinamicamente la pagina senza ricaricarla
+Semplice applicazione Razor Pages per la generazione del codice fiscale italiano a partire dai dati anagrafici di una persona.
 
 ## Impostazioni dell'applicazione
 - "ConnectionStrings":"DefaultConnectionString" --> Stringa di connessione al database SQL Server
